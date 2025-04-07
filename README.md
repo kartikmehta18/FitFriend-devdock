@@ -1,73 +1,88 @@
-# Welcome to your Lovable project
+# FitFriend - A Social Fitness App
 
-## Project info
+Welcome to **FitFriend**, a social fitness app designed to connect individuals with similar fitness goals, providing motivation, personalized workout plans, and progress tracking. FitFriend is your all-in-one platform to connect, train, and achieve your fitness goals together with others.
 
-**URL**: https://lovable.dev/projects/0e28cfa5-bb7c-4428-a9bd-3795b928909a
+## Key Features
 
-## How can I edit this code?
+- **Generate AI Workout**: Get personalized AI-generated workout plans based on your fitness level and goals.
+- **Try Health Calculator**: Use the advanced health calculator to track your fitness metrics and set realistic health goals.
+- **No Credit Card Required**: Enjoy a free 30-day trial with no credit card needed.
 
-There are several ways of editing your application.
+## Table of Contents
 
-**Use Lovable**
+- [About](#about)
+- [Features](#features)
+- [Screenshots](#screenshots)
+- [Tech Stack](#tech-stack)
+- [How to Run](#how-to-run)
+- [Installation](#installation)
+- [Usage](#usage)
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/0e28cfa5-bb7c-4428-a9bd-3795b928909a) and start prompting.
+## About
 
-Changes made via Lovable will be committed automatically to this repo.
+**FitFriend** helps users find fitness partners with similar goals, access personalized workout plans, and track their health journey with smart metrics. It combines social networking, personalized training, and health tracking in one seamless platform.
 
-**Use your preferred IDE**
+[Visit FitFriend](https://fit-friend-devdock.vercel.app/)
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+## Features
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+- **Personalized Workouts**: Access hundreds of workout plans tailored to your fitness level and goals.
+- **Connect with Others**: Find friends with similar fitness goals to stay motivated and accountable.
+- **Health Metrics**: Track your progress with advanced health and fitness metrics.
+- **Progress Tracking**: Visualize your improvement over time with detailed progress charts.
+- **Workout Categories**: Explore various workout categories like Strength, Cardio, Weight Loss, and HIIT.
+- **Fitness Challenges**: Join fitness challenges and competitions to keep your journey exciting.
+- **Health Calculator**: Calculate your fitness goals and metrics with our advanced health calculator.
 
-Follow these steps:
+## Screenshots
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+![FitFriend Dashboard](assets/images/dashboard.png)
+*FitFriend Dashboard with key features.*
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+![Workouts](assets/images/workouts.png)
+*Browse through hundreds of workout plans.*
 
-# Step 3: Install the necessary dependencies.
-npm i
+![Health Metrics](assets/images/health-metrics.png)
+*Track your progress with detailed health metrics.*
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
-```
+## Tech Stack
 
-**Edit a file directly in GitHub**
+- **Frontend**: React.js
+- **Backend**: Node.js, Express
+- **Database**: MongoDB
+- **Authentication**: JWT
+- **Deployment**: Vercel
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+## How to Run
 
-**Use GitHub Codespaces**
+### Installation
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+1. Clone this repository:
+   ```bash
+   git clone https://github.com/yourusername/fitfriend.git
+Navigate to the project folder:
 
-## What technologies are used for this project?
+bash
+Copy
+cd fitfriend
+Install dependencies:
 
-This project is built with:
+bash
+Copy
+npm install
+Start the development server:
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+bash
+Copy
+npm start
+Usage
+Visit the app at https://fit-friend-devdock.vercel.app
 
-## How can I deploy this project?
+Create an account or log in.
 
-Simply open [Lovable](https://lovable.dev/projects/0e28cfa5-bb7c-4428-a9bd-3795b928909a) and click on Share -> Publish.
+Connect with fitness partners.
 
-## Can I connect a custom domain to my Lovable project?
+Start browsing and following workout plans.
 
-Yes it is!
+Track your progress and health metrics.
 
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
